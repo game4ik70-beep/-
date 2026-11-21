@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="engineers_progression"
+version="0.1.0"
+displayName="ENGINEERS: Progression"
+authors="Engineers Team"
+description='''Авторский инженерный архив, дерево исследований и система прогрессии для сборки Инженеры.'''
+
+[[dependencies.engineers_progression]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.engineers_progression]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
